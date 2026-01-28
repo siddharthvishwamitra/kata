@@ -14,9 +14,9 @@
 </p>
 
 <p align="center">
-  <a href="#">Documentation</a> ·
-  <a href="#">Examples</a> ·
-  <a href="#">Roadmap</a>
+  <a href="https://kataframework.pages.dev/docs">Docs</a> ·
+  <a href="https://kataframework.pages.dev/docs/example">Examples</a> ·
+  <a href="https://kataframework.pages.dev/docs/get-started#cdn">CDN</a>
 </p>
 
 ---
