@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="./assets/kata-logo.svg" alt="Kata logo" width="120" />
+  <img src="/docs/assets/icons/kata_dark_logo.png#gh-light-mode-only" alt="Kata logo" width="120">
+  <img src="docs/assets/icons/kata_light_logo.png#gh-dark-mode-only" alt="Kata logo" width="120">
 </p>
 
 <h1 align="center">Kata</h1>
