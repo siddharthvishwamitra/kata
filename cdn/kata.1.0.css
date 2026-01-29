@@ -1,0 +1,31 @@
+/* Color Defined */
+:root {
+  --bg: #ffffff;
+  --bg-soft: #f7f8fa;
+  --text: #0f0f0f;
+  --muted: #606770;
+  --border: #e3e5e8;
+  --hover: #f0f2f4;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #16192c;
+    --bg-soft: #1c203b;
+    --text: #f4f5fb;
+    --muted: #a5aacb;
+    --border: #2a2f55;
+    --hover: #232760;
+  }
+}
+
+/* Basic CSS */
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  color: var(--text);
+  background: linear-gradient(180deg, var(--bg), var(--bg-soft));
+}
