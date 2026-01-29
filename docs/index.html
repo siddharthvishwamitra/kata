@@ -12,12 +12,16 @@
   <!-- Header -->
   <header class="border-b bg-default">
     <div class="container flex items-center justify-between px-4 py-4">
-      <span class="text-lg font-semibold">Kata</span>
+      <div class="flex items-center gap"><picture>
+        <source srcset="/docs/assets/icons/kata_light_logo.png" media="(prefers-color-scheme: dark)">
+        <img src="/docs/assets/icons/kata_dark_logo.png" alt="Kata" class="h-6 w-auto"></picture>
+        <span class="text-sm text-muted font-base">framework</span>
+        </div>
 
-      <nav class="flex gap-4">
+      <nav class="nav-scroll nav-limit flex gap-4">
+        <a href="/" class="text-muted">Home</a>
         <a href="#" class="text-muted">Docs</a>
         <a href="#" class="text-muted">Examples</a>
-        <a href="#" class="text-muted">GitHub</a>
       </nav>
     </div>
   </header>
@@ -59,7 +63,7 @@
   <!-- Footer -->
   <footer class="border-b mt-12">
     <div class="container px-4 py-4 text-sm text-muted">
-      © 2026 Kata · MIT License
+      © 2026 Kata Framework · MIT License
     </div>
   </footer>
 
